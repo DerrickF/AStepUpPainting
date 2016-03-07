@@ -1,9 +1,3 @@
-/*!
- * Creative v1.0.3 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 html,
 body {
   height: 100%;
@@ -13,7 +7,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #f05f40;
+  border-color: #62bcfa;
   border-width: 3px;
   max-width: 50px;
 }
@@ -24,11 +18,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #f05f40;
+  color: #62bcfa;
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #31a7f8;
 }
 h1,
 h2,
@@ -44,10 +38,10 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #f05f40;
+  background-color: #62bcfa;
 }
 .bg-dark {
-  background-color: #222222;
+  background-color: #3b3a36;
   color: white;
 }
 .text-faded {
@@ -64,36 +58,36 @@ aside {
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: rgba(59, 58, 54, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #f05f40;
+  color: #62bcfa;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #31a7f8;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #222222;
+  color: #3b3a36;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #f05f40;
+  color: #62bcfa;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #f05f40 !important;
+  color: #62bcfa !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -122,23 +116,23 @@ aside {
   }
   .navbar-default.affix {
     background-color: white;
-    border-color: rgba(34, 34, 34, 0.05);
+    border-color: rgba(59, 58, 54, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #f05f40;
+    color: #62bcfa;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #31a7f8;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #3b3a36;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #f05f40;
+    color: #62bcfa;
   }
 }
 header {
@@ -174,6 +168,10 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+}
+#header-logo{
+    margin-top:20px;
+    margin-bottom:-50px
 }
 @media (min-width: 768px) {
   header {
@@ -224,7 +222,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(98, 188, 250, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -269,14 +267,14 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #f05f40;
+  color: #62bcfa;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
+  color: #3b3a36;
   background-color: #ffffff;
   border-color: #ffffff;
   -webkit-transition: all 0.35s;
@@ -289,7 +287,7 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
+  color: #3b3a36;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -321,12 +319,12 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default .badge {
   color: #ffffff;
-  background-color: #222222;
+  background-color: #3b3a36;
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #f05f40;
-  border-color: #f05f40;
+  background-color: #62bcfa;
+  border-color: #62bcfa;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -338,8 +336,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #49b1f9;
+  border-color: #3fadf9;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -364,11 +362,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #f05f40;
-  border-color: #f05f40;
+  background-color: #62bcfa;
+  border-color: #62bcfa;
 }
 .btn-primary .badge {
-  color: #f05f40;
+  color: #62bcfa;
   background-color: #ffffff;
 }
 .btn {
@@ -384,12 +382,12 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #3b3a36;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #3b3a36;
 }
 img::selection {
   color: white;
@@ -400,5 +398,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #3b3a36;
 }
