@@ -6,7 +6,11 @@
 
 (function($) {
     "use strict"; // Start of use strict
-
+   
+    if(window.location.href.indexOf("emailSuccess") > -1) {
+       $("#emailSuccess").show();
+    }
+    
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -43,6 +47,7 @@
     })
 
     // Initialize WOW.js Scrolling Animations
-    new WOW().init();
+    new WOW().init();    
+   
 
 })(jQuery); // End of use strict
