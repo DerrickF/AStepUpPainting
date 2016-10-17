@@ -1,9 +1,3 @@
-/*!
- * Creative v1.0.3 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 html,
 body {
   height: 100%;
@@ -13,7 +7,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #cc9966;
+  border-color: #d84830;
   border-width: 3px;
   max-width: 50px;
 }
@@ -24,11 +18,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #cc9966;
+  color: #d84830;
 }
 a:hover,
 a:focus {
-  color: #bf8040;
+  color: #b33722;
 }
 h1,
 h2,
@@ -44,7 +38,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #cc9966;
+  background-color: #d84830;
 }
 .bg-dark {
   background-color: #3b3a36;
@@ -71,14 +65,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #cc9966;
+  color: #d84830;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #bf8040;
+  color: #b33722;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -89,11 +83,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #cc9966;
+  color: #d84830;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #cc9966 !important;
+  color: #d84830 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -125,12 +119,12 @@ aside {
     border-color: rgba(59, 58, 54, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #cc9966;
+    color: #d84830;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #bf8040;
+    color: #b33722;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -138,7 +132,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #cc9966;
+    color: #d84830;
   }
 }
 header {
@@ -224,7 +218,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(204, 153, 102, 0.9);
+  background: rgba(216, 72, 48, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -269,7 +263,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #cc9966;
+  color: #d84830;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -325,8 +319,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #cc9966;
-  border-color: #cc9966;
+  background-color: #d84830;
+  border-color: #d84830;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -338,8 +332,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #c68c53;
-  border-color: #c3874b;
+  background-color: #c93d26;
+  border-color: #c03a24;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -364,11 +358,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #cc9966;
-  border-color: #cc9966;
+  background-color: #d84830;
+  border-color: #d84830;
 }
 .btn-primary .badge {
-  color: #cc9966;
+  color: #d84830;
   background-color: #ffffff;
 }
 .btn {
@@ -402,3 +396,18 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #3b3a36;
 }
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    #profilePic {
+       margin: 0 auto;
+       max-width: 300px;
+    }
+    
+}
+.carouselContainer {
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 800px !important; 
+}
+
+
