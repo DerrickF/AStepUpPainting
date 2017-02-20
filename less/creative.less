@@ -293,7 +293,8 @@ header {
     color: @theme-primary;
 }
 .carousel-control.left, .carousel-control.right {
-    background-image: none
+    background-image: none;
+    color: @theme-primary;
 }
 
 .no-gutter > [class*='col-'] {
@@ -350,6 +351,10 @@ body {
     webkit-tap-highlight-color: @theme-dark;
 }
 
-.sliderImages{
-    max-width: 15px
+a[href^="tel:"] {
+    text-decoration: none;
+}
+
+.carousel-caption{
+    color: white;    
 }

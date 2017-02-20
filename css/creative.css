@@ -268,6 +268,7 @@ header .header-content .header-content-inner p {
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
+  color: #d84830;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -400,6 +401,9 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #3b3a36;
 }
-.sliderImages {
-  max-width: 15px;
+a[href^="tel:"] {
+  text-decoration: none;
+}
+.carousel-caption {
+  color: white;
 }
