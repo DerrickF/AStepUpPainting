@@ -9,6 +9,14 @@ module.exports = function(grunt) {
                 dest: 'js/<%= pkg.name %>.min.js'
             }
         },
+        copy: {
+        main: {
+                files: [
+                // includes files within path
+                {expand: true, src: ['index.html','css/*.min.css','font-awesome/**','fonts/**', 'img/**','js/**',], dest: 'release'},
+            ]},
+        },
+        clean: ["release/**"],
         less: {
             expanded: {
                 options: {
@@ -67,6 +75,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
