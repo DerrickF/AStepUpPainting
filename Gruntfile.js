@@ -10,11 +10,11 @@ module.exports = function(grunt) {
             }
         },
         copy: {
-        main: {
-                files: [
-                // includes files within path
-                {expand: true, src: ['index.html','css/*.min.css','font-awesome/**','fonts/**', 'img/**','js/**',], dest: 'release'},
-            ]},
+            main: {
+                    files: [
+                    // includes files within path
+                    {expand: true, src: ['index.html','css/*.min.css','font-awesome/**','fonts/**', 'img/**','js/*.min.js',], dest: 'release'},
+                ]},
         },
         clean: ["release/**"],
         less: {
@@ -80,5 +80,6 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
+    grunt.registerTask('build-release',['clean','default','copy']);
 
 };
