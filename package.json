@@ -16,7 +16,8 @@
     "grunt-contrib-uglify": "~0.5.1",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-copy":"latest",
-    "grunt-contrib-clean":"latest"
+    "grunt-contrib-clean":"latest",
+    "grunt-contrib-connect": "latest"
   },
   "repository": {
     "type": "git",
