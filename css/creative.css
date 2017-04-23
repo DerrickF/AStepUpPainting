@@ -413,3 +413,9 @@ a[href^="tel:"] {
 .carousel-caption {
   color: white;
 }
+.margin-bottom {
+  margin-bottom: 15px;
+}
+a[href^="tel:"] {
+  text-decoration: none;
+}
