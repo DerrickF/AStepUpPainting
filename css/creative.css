@@ -419,3 +419,19 @@ a[href^="tel:"] {
 a[href^="tel:"] {
   text-decoration: none;
 }
+.icon-background1 {
+  color: white;
+}
+.fa-stack:hover .fa-circle {
+  color: #808080;
+}
+.circle-icon {
+  background: #808080;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}
