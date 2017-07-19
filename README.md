@@ -1,7 +1,7 @@
 # A Step Above Painting  
-## A simple bootstrap / css / js single page app for a small business
+### A simple bootstrap / css / js single page app for a small business
 
-Check it out [here](https://www.astepuppainting.com)
+Check it out live [here](https://www.astepuppainting.com)
 
 ### Sample Images Web
 ![alt text](img/SampleImage1.PNG?raw=true "Sample image 1")
@@ -9,7 +9,10 @@ Check it out [here](https://www.astepuppainting.com)
 ![alt text](img/SampleImage4.PNG?raw=true "Sample image 3")
 
 ### Mobile View
-
+![alt text](img/SampleImageMobile1.PNG?raw=true "Sample mobile image 1")
+![alt text](img/SampleImageMobile2.PNG?raw=true "Sample mobile image 2")
+![alt text](img/SampleImageMobile3.PNG?raw=true "Sample mobile image 3")
+![alt text](img/SampleImageMobile4.PNG?raw=true "Sample mobile image 4")
 
 ## Credit given to the creators: 
 
