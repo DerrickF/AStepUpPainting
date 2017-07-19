@@ -4,10 +4,10 @@
 Check it out [here](https://www.astepuppainting.com)
 
 ### Sample Images
-![alt text](AStepUpPainting/img/SampleImage1.PNG "Sample image 1")
-![alt text](AStepUpPainting/img/SampleImage2.png "Sample image 2")
-![alt text](AStepUpPainting/img/SampleImage3.png "Sample image 4")
-![alt text](AStepUpPainting/img/SampleImage4.png "Sample image 4")
+![alt text](img/SampleImage1.PNG?raw=true "Sample image 1")
+![alt text](img/SampleImage2.png?raw=true "Sample image 2")
+![alt text](img/SampleImage3.png?raw=true "Sample image 4")
+![alt text](img/SampleImage4.png?raw=true "Sample image 4")
 
 ## Credit given to the creators: 
 
