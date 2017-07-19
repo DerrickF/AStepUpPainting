@@ -1,13 +1,15 @@
 # A Step Above Painting  
-### This site uses a template from StartBootstrap - [Creative](http://startbootstrap.com/template-overviews/creative/)
+## A simple bootstrap / css / js single page app for a small business
 
 Check it out [here](https://www.astepuppainting.com)
 
-### Sample Images
+### Sample Images Web
 ![alt text](img/SampleImage1.PNG?raw=true "Sample image 1")
-![alt text](img/SampleImage2.PNG?raw=true "Sample image 2")
-![alt text](img/SampleImage3.PNG?raw=true "Sample image 4")
-![alt text](img/SampleImage4.PNG?raw=true "Sample image 4")
+![alt text](img/SampleImage3.PNG?raw=true "Sample image 2")
+![alt text](img/SampleImage4.PNG?raw=true "Sample image 3")
+
+### Mobile View
+
 
 ## Credit given to the creators: 
 
